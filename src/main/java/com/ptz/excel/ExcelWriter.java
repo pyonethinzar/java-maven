@@ -30,7 +30,7 @@ public class ExcelWriter {
 
             Row row1 = sheet.createRow(1);
             row1.createCell(0).setCellValue(1);
-            row1.createCell(1).setCellValue("Alice John");
+            row1.createCell(1).setCellValue("Alice");
             row1.createCell(2).setCellValue(85);
 
             Row row2 = sheet.createRow(2);
